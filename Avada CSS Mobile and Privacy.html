@@ -1,0 +1,89 @@
+/* Fix for mobile and privacy menu not working on iPhones */
+/* Code complied by HiTechMadeEZ.com 15 Jan 2024 */
+/* V1 */
+/* General styles for safari overflow issue */
+.safari-overflow .fusion-fullwidth {
+    overflow-x: visible;
+}
+
+/* Styles for the fusion privacy bar */
+.fusion-privacy-bar {
+    margin: 20px !important;
+    max-width: 500px !important;
+    width: unset;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 25px !important;
+    border-radius: 10px;
+}
+
+/* Styles for main part of the privacy bar */
+.fusion-privacy-bar .fusion-privacy-bar-main {
+    display: block !important;
+    margin: 0 !important;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-main span,
+.fusion-privacy-bar .fusion-privacy-bar-main span p,
+.fusion-privacy-bar .fusion-privacy-bar-main span a {
+    margin: 0 !important;
+    line-height: 20px !important;
+    text-decoration: underline;
+    display: inline-block;
+    outline: none !important;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-main span a:hover {
+    text-decoration: none;
+}
+
+/* Styles for buttons in the privacy bar */
+.fusion-privacy-bar .fusion-privacy-bar-main .fusion-button {
+    display: block !important;
+    margin: 20px 0 0 !important;
+    border: none !important;
+    max-width: none !important;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-main .fusion-button:hover {
+    opacity: 0.8;
+}
+
+/* Styles for the full privacy bar */
+.fusion-privacy-bar .fusion-privacy-bar-full {
+    padding-top: 0 !important;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column h4 {
+    margin: 20px 0 5px !important;
+}
+
+/* Inline-block display for list items */
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column .fusion-privacy-choices li {
+    display: inline-block;
+}
+
+/* Margin adjustments for labels */
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column .fusion-privacy-choices label {
+    margin: 0 10px 0 0;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column .fusion-privacy-choices li label input {
+    margin: 0;
+}
+
+/* Link styles for the full privacy bar */
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column a {
+    text-decoration: underline;
+}
+
+.fusion-privacy-bar .fusion-privacy-bar-full .fusion-column a:hover {
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=privacy.css.map */
