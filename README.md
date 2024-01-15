@@ -47,7 +47,7 @@ HiTechMadeEZ.com encourages the community to contribute to this project. Your in
 
 ## License
 
-This project is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is released under the GNU License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact and Support
 
